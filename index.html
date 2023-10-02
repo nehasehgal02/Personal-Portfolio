@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Neha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection" data-aos="fade-up" data-aos-duration="2000">
+                Welcome to my Portfolio!
+                <div>I'm <span class="purple">Neha Sehgal</span></div>
+                <div>A passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="img/Neha_Resume.pdf" target="_blank">Download Resume</a></button>
+                </div>
+            </div>
+            <div class="rightSection" data-aos="fade-down" data-aos-duration="2000">
+                <img src="img/bg2.png" alt="web-developer">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-rights">
+                Copyright © neha'sportfolio.com | All rights reserved
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Programmer', 'Web Designer', 'FrontEnd Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+     </script>
+</body>
+
+</html>
