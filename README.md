@@ -1,4 +1,4 @@
-Personal Portfolio 
+# Personal Portfolio 
 
 • Presenting my expertise, technical skills and projects in a visually appealing personal portfolio.
 
